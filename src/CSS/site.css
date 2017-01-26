@@ -1,0 +1,59 @@
+/* entry point css */
+.explorer-view {
+margin: 10px;
+display: table;
+position: relative;
+}
+
+.explorer-left-pane {
+width: 400px;
+position: absolute;
+}
+
+.explorer-right-pane {
+left: 400px;
+width: 400px;
+margin-left: 10px;
+position: absolute;
+}
+
+.tree-view-item {
+margin: 5px;
+margin-left: 20px;
+}
+
+.tree-view-item-column {
+margin-left: 10px;
+}
+
+.tree-view-item.collapsed {
+display: none;
+}
+
+.tree-view-item.expanded {
+display: block;
+}
+
+.list-view-item {
+margin: 5px;
+}
+
+.list-view-item-column {
+margin-left: 10px;
+}
+
+.list-view-item.file {
+cursor: text;
+}
+
+.list-view-item.folder {
+cursor: pointer;
+}
+
+.tree-view-item.file {
+cursor: text;
+}
+
+.tree-view-item.folder {
+cursor: pointer;
+}
